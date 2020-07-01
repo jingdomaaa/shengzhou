@@ -1,0 +1,98 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add @asset/images/icon1.jpeg --silent --no-progress
+
+PATH: 
+  C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;D:\dev\shengzhou\node_modules\.bin;C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;D:\dev\shengzhou\node_modules\.bin;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Program Files (x86)\NetSarang\Xshell 6\;c:\program files\graphicsmagick-1.3.31-q8;C:\Program Files\ImageMagick-7.0.8-Q16;C:\ProgramData\Boxstarter;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\libnvvp;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\libnvvp;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Autodesk\Backburner\;C:\Program Files\Common Files\Autodesk Shared\;C:\Users\aiaiw\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.7.0_40\bin;C:\Program Files\Java\jdk1.7.0_40\jre\bin;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Calibre2\;C:\MinGW\bin;C:\MinGW\msys\1.0\bin;C:\Program Files\Calibre2\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Tesseract-OCR;D:\MySQL\MySQL\bin;d:\Anaconda3;d:\Anaconda3\Library\mingw-w64\bin;d:\Anaconda3\Library\usr\bin;d:\Anaconda3\Library\bin;d:\Anaconda3\Scripts;C:\Users\aiaiw\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\aiaiw\AppData\Local\Programs\Python\Python36\;C:\Program Files\Microsoft VS Code\bin;C:\Users\aiaiw\AppData\Local\GitHubDesktop\bin;C:\Users\aiaiw\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\aiaiw\AppData\Local\Programs\Fiddler;C:\Users\aiaiw\AppData\Local\Microsoft\WindowsApps;C:\Users\aiaiw\AppData\Roaming\npm
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  11.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/@asset%2fimages/icon1.jpeg: Not found
+      at Request.params.callback [as _callback] (C:\Program Files\nodejs\node_modules\yarn\lib\cli.js:66058:18)
+      at Request.self.callback (C:\Program Files\nodejs\node_modules\yarn\lib\cli.js:129541:22)
+      at Request.emit (events.js:193:13)
+      at Request.<anonymous> (C:\Program Files\nodejs\node_modules\yarn\lib\cli.js:130513:10)
+      at Request.emit (events.js:193:13)
+      at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\yarn\lib\cli.js:130435:12)
+      at Object.onceWrapper (events.js:281:20)
+      at IncomingMessage.emit (events.js:198:15)
+      at endReadableNT (_stream_readable.js:1139:12)
+      at processTicksAndRejections (internal/process/task_queues.js:81:17)
+
+npm manifest: 
+  {
+    "name": "shengzhou",
+    "version": "1.0.0",
+    "private": true,
+    "description": "嵊州",
+    "templateInfo": {
+      "name": "default",
+      "typescript": false,
+      "css": "sass"
+    },
+    "scripts": {
+      "build:weapp": "taro build --type weapp",
+      "build:swan": "taro build --type swan",
+      "build:alipay": "taro build --type alipay",
+      "build:tt": "taro build --type tt",
+      "build:h5": "taro build --type h5",
+      "build:rn": "taro build --type rn",
+      "dev:weapp": "npm run build:weapp -- --watch",
+      "dev:swan": "npm run build:swan -- --watch",
+      "dev:alipay": "npm run build:alipay -- --watch",
+      "dev:tt": "npm run build:tt -- --watch",
+      "dev:h5": "npm run build:h5 -- --watch",
+      "dev:rn": "npm run build:rn -- --watch"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "@tarojs/components": "1.3.9",
+      "@tarojs/router": "1.3.9",
+      "@tarojs/taro": "1.3.9",
+      "@tarojs/taro-alipay": "1.3.9",
+      "@tarojs/taro-h5": "1.3.9",
+      "@tarojs/taro-swan": "1.3.9",
+      "@tarojs/taro-tt": "1.3.9",
+      "@tarojs/taro-weapp": "1.3.9",
+      "nerv-devtools": "^1.4.0",
+      "nervjs": "^1.4.0",
+      "taro-ui": "^2.2.1"
+    },
+    "devDependencies": {
+      "@types/react": "^16.4.6",
+      "@types/webpack-env": "^1.13.6",
+      "@tarojs/plugin-babel": "1.3.9",
+      "@tarojs/plugin-csso": "1.3.9",
+      "@tarojs/plugin-sass": "1.3.9",
+      "@tarojs/plugin-uglifyjs": "1.3.9",
+      "@tarojs/webpack-runner": "1.3.9",
+      "babel-plugin-transform-class-properties": "^6.24.1",
+      "babel-plugin-transform-decorators-legacy": "^1.3.4",
+      "babel-plugin-transform-jsx-stylesheet": "^0.6.5",
+      "babel-plugin-transform-object-rest-spread": "^6.26.0",
+      "babel-preset-env": "^1.6.1",
+      "babel-eslint": "^8.2.3",
+      "eslint": "^5.16.0",
+      "eslint-config-taro": "1.3.9",
+      "eslint-plugin-react": "^7.8.2",
+      "eslint-plugin-import": "^2.12.0",
+      "stylelint": "9.3.0",
+      "stylelint-config-taro-rn": "1.3.9",
+      "stylelint-taro-rn": "1.3.9",
+      "eslint-plugin-taro": "1.3.9"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

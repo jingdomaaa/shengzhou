@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "at-card": "../../npm/taro-ui/dist/weapp/components/card/index",
+    "at-radio": "../../npm/taro-ui/dist/weapp/components/radio/index",
+    "result": "../questionnaire/result",
+    "at-button": "../../npm/taro-ui/dist/weapp/components/button/index"
+  },
+  "navigationBarTitleText": "工作压力测试表"
+}

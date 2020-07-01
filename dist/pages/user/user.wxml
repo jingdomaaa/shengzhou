@@ -1,0 +1,9 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="user">
+        <scroll-view scroll-y="{{true}}" class="user__wrap" style="{{anonymousState__temp}}">
+            <profile compid="{{$compid__19}}"></profile>
+            <menu></menu>
+            <view class="user__empty"></view>
+        </scroll-view>
+    </view>
+</block>

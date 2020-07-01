@@ -1,0 +1,26 @@
+<block wx:if="{{$taroCompReady}}">
+    <view>
+        <at-card compid="{{$compid__5}}">
+            <at-radio compid="{{$compid__6}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__7}}">
+            <at-radio compid="{{$compid__8}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__9}}">
+            <at-radio compid="{{$compid__10}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__11}}">
+            <at-radio compid="{{$compid__12}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__13}}">
+            <at-radio compid="{{$compid__14}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__15}}">
+            <at-radio compid="{{$compid__16}}"></at-radio>
+        </at-card>
+        <block wx:if="{{showResultModel}}">
+            <result compid="{{$compid__17}}"></result>
+        </block>
+        <at-button compid="{{$compid__18}}">提交</at-button>
+    </view>
+</block>

@@ -1,0 +1,45 @@
+<block wx:if="{{$taroCompReady}}">
+    <view>
+        <view style="height:56px" class="at-row">
+            <at-avatar compid="{{$compid__25}}"></at-avatar>
+            <view class="at-row at-row--wrap at-row__justify--center">
+                <view class="at-col at-col-6">姓名</view>
+                <view class="at-col at-col-6">工号</view>
+                <view class="at-col at-col-6">年龄</view>
+                <view class="at-col at-col-6">班组</view>
+            </view>
+        </view>
+        <at-divider compid="{{$compid__26}}"></at-divider>
+        <view class="at-row">
+            <view class="at-col at-col-4">
+                <at-tag>标签</at-tag>
+                <at-tag>标签</at-tag>
+                <at-tag>标签</at-tag>
+                <at-tag>标签</at-tag>
+                <at-tag>标签</at-tag>
+                <at-tag>标签</at-tag>
+                <at-tag>标签</at-tag>
+            </view>
+        </view>
+        <view class="at-row">
+            <view class="at-col at-col-8">
+                <at-tag>标签</at-tag>
+                <at-tag>标签</at-tag>
+                <at-tag>标签</at-tag>
+                <at-tag>标签</at-tag>
+                <at-tag>标签</at-tag>
+                <at-tag>标签</at-tag>
+            </view>
+        </view>
+        <at-divider compid="{{$compid__27}}"></at-divider>
+        <view class="container">
+            <view class="move-chart">
+                <move-chart id="LOQlH"></move-chart>
+            </view>
+            <at-divider compid="{{$compid__28}}"></at-divider>
+            <view class="move-chart">
+                <line-chart id="cPUTe"></line-chart>
+            </view>
+        </view>
+    </view>
+</block>

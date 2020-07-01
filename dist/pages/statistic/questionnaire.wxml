@@ -1,0 +1,9 @@
+<block wx:if="{{$taroCompReady}}">
+    <view>
+        <at-button compid="{{$compid__29}}">工作压力测试表</at-button>
+        <at-button compid="{{$compid__30}}">员工满意度调查表</at-button>
+        <at-button compid="{{$compid__31}}">职业倦怠感问卷表</at-button>
+        <at-button compid="{{$compid__32}}">职业锚测试表</at-button>
+        <at-button compid="{{$compid__33}}">返回个人中心</at-button>
+    </view>
+</block>

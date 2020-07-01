@@ -1,0 +1,128 @@
+<block wx:if="{{$taroCompReady}}">
+    <view>
+        <at-card compid="{{$compid__78}}">
+            <at-radio compid="{{$compid__79}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__80}}">
+            <at-radio compid="{{$compid__81}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__82}}">
+            <at-radio compid="{{$compid__83}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__84}}">
+            <at-radio compid="{{$compid__85}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__86}}">
+            <at-radio compid="{{$compid__87}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__88}}">
+            <at-radio compid="{{$compid__89}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__90}}">
+            <at-radio compid="{{$compid__91}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__92}}">
+            <at-radio compid="{{$compid__93}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__94}}">
+            <at-radio compid="{{$compid__95}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__96}}">
+            <at-radio compid="{{$compid__97}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__98}}">
+            <at-radio compid="{{$compid__99}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__100}}">
+            <at-radio compid="{{$compid__101}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__102}}">
+            <at-radio compid="{{$compid__103}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__104}}">
+            <at-radio compid="{{$compid__105}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__106}}">
+            <at-radio compid="{{$compid__107}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__108}}">
+            <at-radio compid="{{$compid__109}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__110}}">
+            <at-radio compid="{{$compid__111}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__112}}">
+            <at-radio compid="{{$compid__113}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__114}}">
+            <at-radio compid="{{$compid__115}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__116}}">
+            <at-radio compid="{{$compid__117}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__118}}">
+            <at-radio compid="{{$compid__119}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__120}}">
+            <at-radio compid="{{$compid__121}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__122}}">
+            <at-radio compid="{{$compid__123}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__124}}">
+            <at-radio compid="{{$compid__125}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__126}}">
+            <at-radio compid="{{$compid__127}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__128}}">
+            <at-radio compid="{{$compid__129}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__130}}">
+            <at-radio compid="{{$compid__131}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__132}}">
+            <at-radio compid="{{$compid__133}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__134}}">
+            <at-radio compid="{{$compid__135}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__136}}">
+            <at-radio compid="{{$compid__137}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__138}}">
+            <at-radio compid="{{$compid__139}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__140}}">
+            <at-radio compid="{{$compid__141}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__142}}">
+            <at-radio compid="{{$compid__143}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__144}}">
+            <at-radio compid="{{$compid__145}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__146}}">
+            <at-radio compid="{{$compid__147}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__148}}">
+            <at-radio compid="{{$compid__149}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__150}}">
+            <at-radio compid="{{$compid__151}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__152}}">
+            <at-radio compid="{{$compid__153}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__154}}">
+            <at-radio compid="{{$compid__155}}"></at-radio>
+        </at-card>
+        <at-card compid="{{$compid__156}}">
+            <at-radio compid="{{$compid__157}}"></at-radio>
+        </at-card>
+        <at-button compid="{{$compid__158}}">提交</at-button>
+        <block wx:if="{{showResultModel}}">
+            <result></result>
+        </block>
+    </view>
+</block>

@@ -1,0 +1,16 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="home">
+        <at-noticebar compid="{{$compid__3}}">您有5条新的消息（4条普通消息,1条阅后即焚）</at-noticebar>
+        <scroll-view scroll-y="{{true}}" class="home__wrap" bindscrolltolower="loadRecommend" style="{{anonymousState__temp}}">
+            <banner compid="{{$compid__4}}"></banner>
+            <todo></todo>
+            <todo></todo>
+            <todo></todo>
+            <todo></todo>
+            <todo></todo>
+            <todo></todo>
+            <todo></todo>
+            <todo></todo>
+        </scroll-view>
+    </view>
+</block>

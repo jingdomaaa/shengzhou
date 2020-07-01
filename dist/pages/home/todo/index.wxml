@@ -1,0 +1,20 @@
+<block wx:if="{{$taroCompReady}}">
+    <view>
+        <view class="at-row at-row__justify--center" style="margin:20px">
+            <view class="at-col at-col-2">
+                <view class="at-col at-col__offset-2"><text class="day">8</text>
+                </view>
+                <view class="at-col at-col__offset-1"> <text class="month">1月</text>
+                </view>
+            </view>
+            <view class="at-col at-col-1" style="background-color:#545454;max-width:1px;"></view>
+            <view class="at-col at-col-7 at-col__offset-1 at-col--wrap">
+                <view class="desc">ABCDEFGHIJKLMNOPQRSTUV</view>
+                <view class="at-row">
+                    <at-icon compid="{{$compid__159}}"></at-icon>
+                    <view class="name">李莉</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</block>

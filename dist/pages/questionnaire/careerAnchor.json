@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "at-card": "../../npm/taro-ui/dist/weapp/components/card/index",
+    "at-radio": "../../npm/taro-ui/dist/weapp/components/radio/index",
+    "at-button": "../../npm/taro-ui/dist/weapp/components/button/index",
+    "result": "./result"
+  },
+  "navigationBarTitleText": "职业锚测试表"
+}

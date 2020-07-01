@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "at-avatar": "../../npm/taro-ui/dist/weapp/components/avatar/index",
+    "at-divider": "../../npm/taro-ui/dist/weapp/components/divider/index",
+    "at-tag": "../../npm/taro-ui/dist/weapp/components/tag/index",
+    "move-chart": "../../components/MoveChart",
+    "line-chart": "../../components/LineChart"
+  },
+  "navigationBarTitleText": "person"
+}

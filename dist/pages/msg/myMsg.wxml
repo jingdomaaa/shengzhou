@@ -1,0 +1,11 @@
+<block wx:if="{{$taroCompReady}}">
+    <view>
+        <at-list>
+            <at-list-item compid="{{$compid__20}}"></at-list-item>
+            <at-list-item compid="{{$compid__21}}"></at-list-item>
+            <at-list-item compid="{{$compid__22}}"></at-list-item>
+            <at-list-item compid="{{$compid__23}}"></at-list-item>
+            <at-list-item compid="{{$compid__24}}"></at-list-item>
+        </at-list>
+    </view>
+</block>

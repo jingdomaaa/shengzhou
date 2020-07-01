@@ -1,0 +1,12 @@
+<block wx:if="{{$taroCompReady}}">
+    <dialog>
+        <view class="questionnaire-result">
+            <view class="result-body">
+                <view class="btn-group">
+                    <at-button compid="{{$compid__167}}">确认</at-button>
+                    <at-button compid="{{$compid__168}}">返回问卷中心</at-button>
+                </view>
+            </view>
+        </view>
+    </dialog>
+</block>

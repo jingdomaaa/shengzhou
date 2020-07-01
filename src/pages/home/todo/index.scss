@@ -1,0 +1,24 @@
+@import "@styles/theme.scss";
+@import "~taro-ui/dist/style/components/flex.scss";
+
+.month {
+    font-size: 16PX;
+    color: #08088A;
+}
+.day {
+    font-size: 16PX;
+    font-weight: bold;
+    color: #08088A;
+}
+
+.desc {
+    font-size: 14PX;
+    font-weight: normal;
+    color:black;
+}
+
+.name {
+    font-size: 14PX;
+    font-weight: normal;
+    color:orange;
+}

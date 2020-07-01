@@ -1,0 +1,14 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="user-login-email">
+        <view class="user-login-email__logo">
+            <image src="{{LOGO}}" class="user-login-email__logo-img"></image>
+        </view>
+        <view class="user-login-email__wrap">
+            <input-item compid="{{$compid__0}}"></input-item>
+            <input-item compid="{{$compid__1}}"></input-item>
+        </view>
+        <view class="user-login-email__btn">
+            <button-item compid="{{$compid__2}}"></button-item>
+        </view>
+    </view>
+</block>

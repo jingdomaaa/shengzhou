@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "at-noticebar": "../../npm/taro-ui/dist/weapp/components/noticebar/index",
+    "banner": "./banner/index",
+    "todo": "./todo/index"
+  },
+  "navigationBarTitleText": "首页"
+}
